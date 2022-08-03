@@ -68,9 +68,9 @@ export default function Login() {
             <p className="text-center font-semibold mx-4 mb-0">OR</p>
           </div>
 
-          <a className='px-7 py-3 font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3' href='http://localhost:4000/auth/google'><FcGoogle className='mr-7 '/> Continue with Google</a>
+          <a className='px-7 py-3 font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3' href='https://it-crowd-challenge-backend.herokuapp.com/auth/google'><FcGoogle className='mr-7 '/> Continue with Google</a>
 
-          <a className='px-7 py-3 text-white bg-[#1877f2] font-medium text-sm leading-snug uppercase rounded mb-4 shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center' href='http://localhost:4000/auth/facebook'><FaFacebook className='mr-7 '/> Continue with Facebook</a>
+          <a className='px-7 py-3 text-white bg-[#1877f2] font-medium text-sm leading-snug uppercase rounded mb-4 shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center' href='https://it-crowd-challenge-backend.herokuapp.com/auth/facebook' ><FaFacebook className='mr-7 '/> Continue with Facebook</a>
 
         </form>
       </div>

@@ -9,7 +9,7 @@ function authResponse(res,result,statusCode){
         //Agregando data y mandando por json data no se envian los datos de token
         return res.cookie("token",token,{
             httpOnly:true,
-            secure:production,
+            secure:true,
             sameSite:"none",
             expires:new Date(new Date().setDate(new Date().getDate() + 7))
         }).json(data)
@@ -30,7 +30,7 @@ function providerResponse(res,result,statusCode){
             secure:true,
             sameSite:"none",
             expires:new Date(new Date().setDate(new Date().getDate() + 7))
-        }).redirect("http://localhost:3000")
+        }).redirect("https://it-crowd-challenge-frontend.herokuapp.com")
     }
 
 
@@ -44,7 +44,7 @@ function deleteCookie(res){
         expires:new Date(),
         httpOnly:true,
         sameSite:"none",
-        secure:production
+        secure:true
     }).json({
         success:true,
         message:"Successfully logged out "
