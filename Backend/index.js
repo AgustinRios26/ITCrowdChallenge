@@ -23,7 +23,7 @@ connection()
 app.use(express.json())
 app.use(cookie())
 app.use(cors({
-    origin:["https://it-crowd-challenge-frontend.herokuapp.com"],
+    origin: proccess.env.URL_FRONTEND,
     credentials:true
 }))
 
