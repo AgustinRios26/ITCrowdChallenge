@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const instance = axios.create({
-    baseURL:"https://it-crowd-challenge-backend.herokuapp.com"
+    baseURL:"https://itcrowdchallenge.onrender.com"
 })
 
 async function get(url){

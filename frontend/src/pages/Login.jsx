@@ -48,7 +48,7 @@ export default function Login() {
       <div className="max-w-[600px] md:w-8/12 lg:w-6/12 mb-8 md:mb-0">
         <img src={loginImg} className="w-screen" alt="Login Img"/>
       </div>
-      <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
+      <div className="md:w-8/12 lg:w-5/12 lg:ml-20 md:ml-10">
         <form onSubmit={login}>
             
           <div className="mb-6">
