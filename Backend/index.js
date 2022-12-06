@@ -23,7 +23,7 @@ connection()
 app.use(express.json())
 app.use(cookie())
 app.use(cors({
-    origin: proccess.env.URL_FRONTEND,
+    origin: process.env.URL_FRONTEND,
     credentials:true
 }))
 
